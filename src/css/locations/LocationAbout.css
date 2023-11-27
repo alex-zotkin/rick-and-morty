@@ -1,0 +1,25 @@
+.location_name{
+    font-weight: 400;
+    font-size: 48px;
+}
+
+.location_info{
+    /* width: 50%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.location_info li{
+    width: 50%;
+    text-align: center;
+}
+
+.location_info li h4{
+    margin: 5px 0;
+}
+
+.section_label{
+    font-size: 20px;
+    color: #8E8E93;
+}

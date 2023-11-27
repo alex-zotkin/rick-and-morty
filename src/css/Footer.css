@@ -1,0 +1,12 @@
+footer{
+    width: 100%;
+    height: 60px;
+    font-family: 'Karla';
+    font-size: 18px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    box-shadow: -2px 0px 8px 2px #0000001A;
+}

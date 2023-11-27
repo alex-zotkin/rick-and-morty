@@ -1,0 +1,82 @@
+@media not screen and (min-width: 1850px){
+
+    center, .center{
+        width: 80%;
+    }
+
+    .card_list{
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+
+}
+
+
+
+
+
+@media not screen and (min-width: 1350px){
+
+
+    .card_list{
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+
+}
+
+
+
+
+
+
+@media not screen and (min-width: 950px){
+
+    
+    input{
+        margin: 0;
+        width: 100% !important;
+    }
+
+
+    .card_list{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+
+
+
+
+    .character_page_img{
+        width: 350px;
+    }
+
+    .character_about_info{
+        flex-direction: column;
+        align-items: center !important;
+    }
+
+    .character_about_info_list{
+        width: 90% !important;
+    }
+
+
+
+}
+
+
+
+
+
+
+
+
+@media not screen and (min-width: 650px){
+
+
+    .card_list{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+
+}
